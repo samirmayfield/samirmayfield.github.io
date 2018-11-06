@@ -2,13 +2,22 @@
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(document).on('click', 'a.page-scroll', function(event) {
+    $(document).on('click', 'a.page-scroll2', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+	$("a.page-scroll").on('click',function(e) {
+    var url = e.target.href;
+    var hash = url.substring(url.indexOf("#")+1);
+    $('html, body').animate({
+        scrollTop: $('#'+hash).offset().top
+    }, 500);
+    return false;
+});
+	
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({

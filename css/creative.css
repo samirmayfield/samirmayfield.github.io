@@ -17,7 +17,7 @@ hr {
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: black;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -62,7 +62,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: black;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;

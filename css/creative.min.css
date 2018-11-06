@@ -24,9 +24,9 @@
 
 hr{border-color:#A9A9A9;border-width:3px;max-width:50px}hr.light{border-color:#fff}
 
-a{transition:all .35s;color:#A9A9A9
+a{transition:all .35s;color:black; font-weight:bold;
 }a:focus,a:hover{
-	color:#eb3812
+	color:blue
 }
 
 p{font-size:16px;line-height:1.5;
@@ -79,7 +79,7 @@ margin-bottom:20px
 .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{
 	text-transform:uppercase;
 	font-weight:700;
-	font-size:13px
+	font-size:13px;
 	color:#222
 }
 
@@ -421,7 +421,9 @@ img::-moz-selection{
 	background:0 0
 }
  
- 
+#contact {
+	background-image:url(../img/contact.jpg)
+} 
  
  
  /* original below */
